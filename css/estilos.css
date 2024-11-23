@@ -17,6 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 10;
+    border-bottom: 1px solid #000038;
     height: 100px;}
 
 #div_logo{
@@ -166,6 +167,25 @@ body{
     transform: translateY(-10px); 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);}
 
+#botao_servicos{
+
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+#botao_servicos a:hover{
+
+    background-color: #000038;}
+
+#botao_servicos a{
+
+    display: inline-block;
+    background-color: #321bad;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;}
+
 .rodape{
 
     display: flex;
@@ -181,17 +201,20 @@ body{
 
 .div_politicas{
 
+    display: flex;
     text-align: center;
     color: white;}
 
 .div_politicas a{
 
+    margin-right: 20px;
+    margin-top: 10px;
     color: yellow;
-    font-size: 21px;}
+    font-size: 12px;}
 
 .div_politicas p{
 
-    margin-top: 30px;
+    margin-left: 20px;
     font-size: 12px;}
 
 .div_politicas a:hover{
@@ -347,8 +370,13 @@ th{
     background-color: #4324d5;
     color: white;}
 
+tbody a:hover{
+
+    background-color: #0D1321;}
+
 .tabela_contato_alinhamento{
 
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;}
 
@@ -371,7 +399,6 @@ th{
     width: 90%;}
 
 #div_texto_tabela{
-
     
     flex: 60%;
     width: 500px;}
@@ -393,10 +420,71 @@ th{
 #div_texto_tabela a{
 
     display: inline-block;
-    background-color: black;
+    background-color: #000038;
     padding: 20px;
     text-transform: uppercase;
     border-radius: 5px;
     text-decoration: none;
     color: white;}
+
+#div_texto_tabela a:hover{
+
+    background-color: white;
+    color: #000038;}
+
+.div_conteudo_servicos{
+
+    display: flex;
+    transition: transform 0.3s ease;
+    background-color: white;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    border: 1px solid #4324d5;}
+
+.div_linha_servicos{
+
+    text-align: center;
+    background-color: #000038;
+    height: 500px;}
+
+.div_linha_servicos p{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 90%;
+    font-weight: 400;
+    font-size: 23px;
+    color: white;}
+
+.div_texto_servicos{
+
+    text-align: left;}
+
+.div_texto_servicos p{
+
+    color: black;}
+
+.div_texto_servicos h3{
+
+    margin-left: 30px;
+    width: 280px;
+    text-align: left;}
+
+.div_img_servicos{
+
+    margin-top: 25px;}
+
+.div_conteudo_servicos:hover{
+
+    z-index: 5;
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);}
+
+#div_titulo_linha p{
+
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 42px;}
 
