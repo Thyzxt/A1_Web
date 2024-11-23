@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+
+    scroll-behavior: smooth;}
+
+body{
+
+    font-family: 'Roboto';
+    margin: 0;}
+
+#nav_menu{
+
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    height: 100px;}
+
+#div_logo{
+
+    flex: 30%;
+    text-align: left;
+    margin-left: 10%;}
+
+.div_menu{
+
+    flex: 60%;
+    text-align: right;
+    padding: 20px;}
+
+.div_menu a{
+
+    text-decoration: none;
+    font-size: 17px;
+    padding: 20px 16px;
+    color: #0D1321;}
+
+.div_menu a:hover{
+
+    color: #321bad;
+    border-top: 4px solid #000038;}
+
+#div_logo img{
+
+    width: 70%;}
+
+#contato{
+
+    margin-left: 5%;
+    margin-right: 10%;
+    border-radius: 5px;
+    color: white;
+    background-color: #321bad;
+    padding: 10px 25px;}
+
+#contato:hover{
+
+    border: none;
+    background-color: #000038;}
+
+.header_inicio{
+
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;}
+
+.div_inicio{
+
+    margin-left: 10%;
+    flex: 40%;}
+
+.div_inicio h2{
+
+    color: #11095f;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    font-size: 20px;}
+
+.div_inicio p{
+
+    color: #0D1321;
+    font-size: 20px;
+    text-align: left;}
+
+#botao_contato{
+
+    display: inline-block;
+    background-color: #321bad;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;}
+
+#botao_contato:hover{
+
+    background-color: #000038;}
+
+#div_img_inicio{
+
+    text-align: center;
+    margin-right: 1%;
+    flex: 40%;}
+
+#div_img_inicio img{
+
+    width: 90%;}
+
+.div_linha{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #321bad;
+    height: 150px;}
+
+.div_linha p{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    font-weight: 400;
+    font-size: 23px;
+    color: white;}
+
+.section_servicos{
+
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;}
+
+.section_servicos h2{
+
+    width: 100%;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #000038;
+    margin: 0;}
+
+.div_servicos{
+
+    display: flex;
+    margin-top: 5%;}
+
+.div_conteudo{
+
+    transition: transform 0.3s ease;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    border: 1px solid #4324d5;}
+
+.div_conteudo:hover {
+
+    z-index: 5;
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);}
+
+
+.rodape{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    background-image:linear-gradient(180deg, #221286, #11095f, #000038);}
+
+.div_sociais{
+
+    margin-right: 100px;
+    display: flex;}
+
+.div_politicas{
+
+    text-align: center;
+    color: white;}
+
+.div_politicas a{
+
+    color: yellow;
+    font-size: 21px;}
+
+.div_politicas p{
+
+    margin-top: 30px;
+    font-size: 12px;}
+
+.div_politicas a:hover{
+
+    color: white;}
+
+#footer_texto{
+
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-left: 100px;
+    color: white;
+    width: 250px;}
+
+.rodape div img{
+
+    width: 50%;}
+
+.whats{
+
+    border-radius: 30px;
+    display: flex;
+    width: 240px;
+    margin-bottom: 15px;
+    align-items: center;
+    background-color: rgb(49, 163, 64);
+    justify-content: center;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;}
+
+.whats img{
+
+    width: 7%;}
+
+.whats a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;}
+
+.whats p{
+
+    font-size: 13px;
+    margin-left: 5px;
+    color: white;}
+
+#voltar{
+
+    width: 64px;
+    position: fixed;
+    bottom: 50px;
+    left: 30px;}
+
+.linha{
+
+    background-color: white;
+    padding-top: 100px;}
+
+.titulo_contato{
+
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;}
+
+.titulo_contato span{
+
+    text-align: center;
+    color: white; 
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1px; 
+    text-transform: uppercase;}
+
+#span_texto{
+
+    font-size: 15px;}
+
+.traco{
+
+    background-color: white;
+    width: 367px;
+    height: 1px;
+    margin: 10px;}
+
+.section_formulario{
+
+    padding-top: 100px;
+    height: 400px;
+    display: flex;}
+
+#div_img_contato{
+
+    margin-top: 40px;
+    margin-left: 10%;
+    flex: 40%;}
+
+#div_img_contato img{
+
+    margin-right: 50px;
+    width: 20%;}
+
+.div_formulario_contato{
+
+    flex: 30%}
+
+.div_formulario_contato input{
+
+    width: 179px;
+    border-radius: 10px;
+    padding: 10px;}
+
+#label_politicas{
+
+    font-weight: 500;
+    font-size: 12px;}
+
+#button_formulario{
+
+    border-radius: 10px;
+    width: 420px;
+    padding: 10px;
+    color: white;
+    background-image:linear-gradient(180deg, #4324d5,  #321bad);}
+
+.tabela{
+
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;}
+
+table{
+
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;}
+
+th, td{
+
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;}
+
+th{
+
+    background-color: #4324d5;
+    color: white;}
+
