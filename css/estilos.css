@@ -773,3 +773,432 @@ iframe{
 .centralizar_video{
 
     width: 100%;}
+
+@media (max-width: 768px){
+    
+    #nav_menu {
+        height: 10%;
+        flex-direction: column;
+        padding: 20px;}
+    
+        .div_menu {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .div_menu a {
+            padding: 10px 16px;
+            font-size: 16px;
+        }
+    
+        .div_logo {
+            flex: 100%;
+            text-align: center;
+            margin-left: 0;
+        }
+    
+        #div_logo img {
+            width: 50%;
+        }
+    
+        .header_inicio {
+            flex-direction: column;
+            height: auto;
+            padding-top: 20%;
+        }
+    
+        .div_inicio, #div_img_inicio {
+            flex: 100%;
+            margin-left: 0;
+        }
+    
+        .div_inicio h2 {
+            font-size: 18px;
+        }
+    
+        .div_inicio p {
+            font-size: 16px;
+        }
+    
+        #botao_contato {
+            font-size: 14px;
+            padding: 15px;
+        }
+    
+        .section_servicos {
+            padding: 5%;
+            margin: 10px;
+        }
+    
+        .div_servicos {
+            flex-direction: column;
+        }
+    
+        .div_conteudo {
+            width: 90%;
+            margin: 10px 0;
+        }
+    
+        .rodape {
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            height: auto;
+        }
+    
+        .div_sociais {
+            margin-right: 0;
+            justify-content: center;
+        }
+    
+        #footer_texto {
+            margin-left: 0;
+            width: auto;
+            
+        }
+    
+        .whats {
+            width: 200px;
+            right: 10px;
+            bottom: 10px;
+        }
+    
+        .whats p {
+            font-size: 12px;
+        }
+    
+        #voltar {
+            left: 10px;
+            bottom: 20px;
+        }
+    
+        .titulo_contato span {
+            font-size: 20px;
+        }
+    
+        .section_formulario {
+            flex-direction: column;
+            padding-top: 10px;
+            padding-bottom: 10%;
+            text-align: center;
+        }
+    
+        #div_img_contato {
+            margin-left: auto;
+            margin-right: auto;
+            flex: 100%;
+        }
+    
+        .div_formulario_contato input {
+            width: 20%;
+            margin-bottom: 2px;
+            display: inline-flex;
+        
+        }
+    
+        #button_formulario {
+            width: 100%;
+        }
+    
+        .div_tabela_contato {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        #div_img_tabela {
+            width: 30%;
+            margin: 0;
+            padding-top: 15px;
+        }
+    
+        #div_texto_tabela {
+            width: 100%;
+        }
+    
+        .div_conteudo_servicos {
+            width: 90%;
+            margin: 10px 0;
+        }
+        #div_titulo_linha p{
+            width: auto;
+    
+        }
+    
+        .div_linha_servicos {
+            height: auto;
+            padding: 20px;
+            width: auto;
+        }
+    
+        .div_texto_servicos h3 {
+            font-size: 18px;
+        }
+        .div_estat{
+            width: auto;
+            height: auto;
+        }
+    
+        .div_linha_tabela{
+            height: auto;
+            width: auto;
+        }
+        .div_img_servicos {
+            margin-top: 10px;
+            width: 100%;
+        }
+        .div_tabela_contato{
+            height: auto;
+            width: auto ;
+        }
+    
+        .trafego_img {
+            height: auto;
+            flex: 100%;
+            text-align: center;
+        }
+    
+        .texto_trafego, .trafego_img {
+            flex: 100%;
+        }
+    
+        .img_lista_trafego ul {
+            padding-left: 0;
+        }
+    
+        .trafego_img img {
+            width: 80%;
+            height: auto;
+        }
+        .titulo_video{
+            width: 100%;
+        }
+        .video{
+            width: 100%;
+        }
+        .botao_mudar button{
+            width: 100%;
+        }
+        .div_perguntas{
+            width: 100%;
+        }
+        .duvidas_faq{
+            width: auto;
+            height: auto;
+        }
+        .expandir{
+            width: 80%;
+        }
+        .texto_escondido{
+            width: auto;
+        }
+        .texto_politicas{
+            width: 100%;
+        }
+        .lista_politicas{
+            width: 100%;
+        }
+        .linha_especa{
+            width: 100%;
+        }
+    
+    }
+    @media (max-width: 1024px) {
+        #nav_menu {
+            height: 10%;
+            flex-direction: column;
+            padding: 20px;
+        }
+    
+        .div_menu {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .div_menu a {
+            padding: 10px 16px;
+            font-size: 16px;
+        }
+    
+        .div_logo {
+            flex: 100%;
+            text-align: center;
+            margin-left: 0;
+        }
+    
+        #div_logo img {
+            width: 50%;
+        }
+    
+        .header_inicio {
+            flex-direction: column;
+            height: auto;
+            padding-top: 20%;
+        }
+    
+        .div_inicio, #div_img_inicio {
+            flex: 100%;
+            margin-left: 0;
+        }
+    
+        .div_inicio h2 {
+            font-size: 18px;
+        }
+    
+        .div_inicio p {
+            font-size: 16px;
+        }
+    
+        #botao_contato {
+            font-size: 14px;
+            padding: 15px;
+        }
+    
+        .section_servicos {
+            padding: 5%;
+            margin: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+    
+        .div_servicos {
+            flex-direction: column;
+        }
+    
+        .div_conteudo {
+            width: 90%;
+            margin: 10px 0;
+        }
+    
+        .rodape {
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            height: auto;
+        }
+    
+        .div_sociais {
+            margin-right: 0;
+            justify-content: center;
+        }
+    
+        #footer_texto {
+            margin-left: 0;
+            width: auto;
+            
+        }
+    
+        .whats {
+            width: 200px;
+            right: 10px;
+            bottom: 10px;
+        }
+    
+        .whats p {
+            font-size: 12px;
+        }
+    
+        #voltar {
+            left: 10px;
+            bottom: 20px;
+        }
+    
+        .titulo_contato span {
+            font-size: 20px;
+        }
+    
+        .section_formulario {
+            flex-direction: column;
+            padding-top: 10px;
+            padding-bottom: 10%;
+            text-align: center;
+        }
+    
+        #div_img_contato {
+            margin-left: auto;
+            margin-right: auto;
+            flex: 100%;
+        }
+    
+        .div_formulario_contato input {
+            width: 20%;
+            margin-bottom: 2px;
+            display: inline-flex;
+        
+        }
+    
+        #button_formulario {
+            width: 50%;
+        }
+    
+        .div_tabela_contato {
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        #div_img_tabela {
+            width: 30%;
+            margin: 0;
+            padding-top: 15px;
+        }
+    
+        #div_texto_tabela {
+            width: 100%;
+        }
+    
+        .div_conteudo_servicos {
+            width: 90%;
+            margin: 10px 0;
+        }
+        #div_titulo_linha p{
+            width: auto;
+    
+        }
+    
+        .div_linha_servicos {
+            height: auto;
+            padding: 20px;
+            width: auto;
+        }
+    
+        .div_texto_servicos h3 {
+            font-size: 18px;
+        }
+        .div_estat{
+            width: auto;
+            height: auto;
+        }
+    
+        .div_linha_tabela{
+            height: auto;
+            width: auto;
+        }
+        .div_img_servicos {
+            margin-top: 10px;
+            width: 100%;
+        }
+        .div_tabela_contato{
+            height: auto;
+            width: auto ;
+        }
+    
+        .trafego_img {
+            height: 500px;
+            flex: 100%;
+            text-align: center;
+            
+        }
+    
+        .texto_trafego, .trafego_img {
+            flex: 100%;
+        }
+    
+        .img_lista_trafego ul {
+            padding-left: 0;
+        }
+    
+        .trafego_img img {
+            width: 80%;
+            height: auto;
+        }
+    }

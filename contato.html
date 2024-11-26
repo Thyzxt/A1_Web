@@ -107,9 +107,20 @@
 
                 <br><br>
 
-                <button id="button_formulario" type="submit">QUERO CONTRATAR</button>
+                <button id="button_formulario" type="button" onclick="exibe()">QUERO CONTRATAR</button>
 
                 </form>
+
+                <div id="informacoes_exibidas" style="display: none;">
+
+                    <h3>Informações fornecidas:</h3>
+                    <p><strong>Nome:</strong> <span id="mostrar_nome"></span></p>
+                    <p><strong>Sobrenome:</strong> <span id="mostrar_sobrenome"></span></p>
+                    <p><strong>E-mail:</strong> <span id="mostrar_email"></span></p>
+                    <p><strong>Telefone:</strong> <span id="mostrar_telefone"></span></p>
+                    <p><strong>Cidade:</strong> <span id="mostrar_cidade"></span></p>
+
+                </div>
 
     </section>
 
@@ -194,6 +205,8 @@
         <img id="voltar" src="img/ir-para-cima.png" alt="voltar inicio" title="Clique para voltar ao topo">
 
     </a>
+
+    <script src="js/codigos.js"></script>
 
 </body>
 
