@@ -1,2 +1,2 @@
 # A1_Web
-Trabalho da faculdade de Analíse e Desenvolvimento de Sistemas para a matéria de Desenvolvimento Web.
+https://thyzxt.github.io/A1_Web/
