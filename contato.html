@@ -33,7 +33,7 @@
             
             <a href="politicas.html">Políticas</a>
             
-            <a href="contato.html" id="contato">Contato</a>
+            <a href="contato.html" id="contato" class="menu_atual">Contato</a>
 
         </div>
 
@@ -41,7 +41,7 @@
 
     <div class="linha"></div>
 
-    <div style="background-image: url('img/freepik-export-20241122163205Xdn7.png');" class="titulo_contato">
+    <div style="background-image: url('img/freepik-export-20241127015927FX3A.jpeg');" class="titulo_contato">
 
         <span>Contate-nos</span>
 
@@ -77,7 +77,7 @@
                 <br><br>
                 
                 <label for="email"></label>
-                <input type="email" name="pass" placeholder="E-mail" id="pass" required>
+                <input type="email" name="email" placeholder="E-mail" id="pass" required>
         
                 <label for="telefone"></label>
                 <input style="margin-left: 10px;" type="tel" name="telefone" placeholder="Telefone" id="telefone" required>
@@ -98,8 +98,6 @@
 
                 </select>
 
-                </form>
-
                 <br>
                     
                 <input style="width: auto;" type="checkbox" name="check" id="check" required>
@@ -107,9 +105,9 @@
 
                 <br><br>
 
-                <button id="button_formulario" type="button" onclick="exibe()">QUERO CONTRATAR</button>
-
-                </form>
+                <button id="button_formulario" type="submit" onclick="exibe()">QUERO CONTRATAR</button>
+            
+            </form>
 
                 <div id="informacoes_exibidas" style="display: none;">
 
@@ -119,8 +117,8 @@
                     <p><strong>E-mail:</strong> <span id="mostrar_email"></span></p>
                     <p><strong>Telefone:</strong> <span id="mostrar_telefone"></span></p>
                     <p><strong>Cidade:</strong> <span id="mostrar_cidade"></span></p>
-
-                </div>
+                
+        </div>
 
     </section>
 

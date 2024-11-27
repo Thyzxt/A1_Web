@@ -1,10 +1,12 @@
 function exibe(){
+
     const nome = document.getElementById("nome").value;
     const sobrenome = document.getElementById("sobrenome").value;
     const email = document.getElementById("pass").value;
     const telefone = document.getElementById("telefone").value;
     const cidade = document.getElementById("cidade").value;
 
+    if (nome && sobrenome && email && telefone && cidade && check){
     const modal = document.createElement("div");
     modal.style.position = "fixed";
     modal.style.top = "0";
@@ -50,6 +52,9 @@ modal.addEventListener("click", function(event) {
     if (event.target === modal){
 
             document.body.removeChild(modal);}});}
+
+            else{
+                alert("Por favor, preencha todos os campos obrigatórios e aceite a Política de Privacidade.");}}
 
 
 document.getElementById("mudar_titulo").addEventListener("click", function(){

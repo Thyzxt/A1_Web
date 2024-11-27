@@ -21,6 +21,11 @@ body{
     border-bottom: 1px solid #000038;
     height: 100px;}
 
+.menu_atual{
+
+    color: #321bad;
+    border-top: 4px solid #000038;}
+
 #div_logo{
 
     flex: 30%;
@@ -112,6 +117,7 @@ body{
 
 #div_img_inicio img{
 
+    height: 600px;
     width: 90%;}
 
 .div_linha{
@@ -405,9 +411,9 @@ tbody a:hover{
 
 #div_texto_tabela h2{
 
+    font-size: 32px;
     width: 66%;
     font-weight: bolder;
-    font-size: 37px;
     color: white;
     margin: 0;}
 
@@ -650,23 +656,18 @@ tbody a:hover{
     font-weight: 300;
     font-size: 21px;}
 
-.section_perguntas{
+.div_perguntas{
 
     margin-left: auto;
     margin-right: auto;
-    height: 800px;}
-
-.div_perguntas{
-
-    height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;}
+    width: 1100px;}
 
 .duvidas_faq{
 
-    flex: 40%;
-    height: 650px;}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
 
 .duvidas_faq h2{
 
@@ -679,8 +680,7 @@ tbody a:hover{
 .img_faq{
 
     text-align: center;
-    height: 650px;
-    flex: 50%;}
+    height: 500px;}
 
 .img_faq h2{
 
@@ -689,8 +689,8 @@ tbody a:hover{
 
 .img_faq img{
 
-    width: 80%; 
-    height: 80%;}
+    width: 30%; 
+    height: 50%;}
 
 .texto_escondido{
 
@@ -704,7 +704,6 @@ tbody a:hover{
 
     cursor: pointer;
     border-radius: 10px;
-    text-align: left;
     width: 500px;
     padding: 5px;
     color: white;
@@ -712,6 +711,8 @@ tbody a:hover{
     margin-top: 70px;}
 
 .expandir h3{
+    
+    text-align: left;
     margin-left: 10px;
     font-weight: 300;}
 
@@ -776,232 +777,254 @@ iframe{
 
 @media (max-width: 768px){
     
-    #nav_menu {
+    #nav_menu{
+
         height: 10%;
         flex-direction: column;
         padding: 20px;}
     
-        .div_menu {
-            width: 100%;
-            text-align: center;
-        }
+    .div_menu{
+
+        width: 100%;
+        text-align: center;}
     
-        .div_menu a {
-            padding: 10px 16px;
-            font-size: 16px;
-        }
+    .div_menu a{
+
+        padding: 10px 16px;
+        font-size: 16px;}
     
-        .div_logo {
-            flex: 100%;
-            text-align: center;
-            margin-left: 0;
-        }
+    .div_logo{
+
+        flex: 100%;
+        text-align: center;
+        margin-left: 0;}
     
-        #div_logo img {
-            width: 50%;
-        }
+    #div_logo img{
+
+        width: 50%;}
     
-        .header_inicio {
-            flex-direction: column;
-            height: auto;
-            padding-top: 20%;
-        }
+    .header_inicio{
+
+        flex-direction: column;
+        height: auto;
+        padding-top: 20%;}
     
-        .div_inicio, #div_img_inicio {
-            flex: 100%;
-            margin-left: 0;
-        }
+    .div_inicio, #div_img_inicio{
+
+        flex: 100%;
+        margin-left: 0;}
     
-        .div_inicio h2 {
-            font-size: 18px;
-        }
+    .div_inicio h2{
+
+        font-size: 18px;}
     
-        .div_inicio p {
-            font-size: 16px;
-        }
+    .div_inicio p{
+
+        font-size: 16px;}
+
+    .div_linha p{
+
+        font-size: 16px;}
     
-        #botao_contato {
-            font-size: 14px;
-            padding: 15px;
-        }
-    
-        .section_servicos {
-            padding: 5%;
-            margin: 10px;
-        }
-    
-        .div_servicos {
-            flex-direction: column;
-        }
-    
-        .div_conteudo {
-            width: 90%;
-            margin: 10px 0;
-        }
-    
-        .rodape {
-            flex-direction: column;
-            text-align: center;
-            width: 100%;
-            height: auto;
-        }
-    
-        .div_sociais {
-            margin-right: 0;
-            justify-content: center;
-        }
-    
-        #footer_texto {
-            margin-left: 0;
-            width: auto;
+    #botao_contato{
             
-        }
+        font-size: 14px;
+        padding: 15px;}
     
-        .whats {
-            width: 200px;
-            right: 10px;
-            bottom: 10px;
-        }
+    .section_servicos{
+
+        padding: 5%;
+        margin: 10px;}
     
-        .whats p {
-            font-size: 12px;
-        }
+    .div_servicos{
+
+        text-align: center;
+        margin-left: 20px;
+        flex-direction: column;}
     
-        #voltar {
-            left: 10px;
-            bottom: 20px;
-        }
+    .div_conteudo{
+
+        width: 90%;
+        margin: 10px 0;}
     
-        .titulo_contato span {
-            font-size: 20px;
-        }
+    .rodape{
+
+        text-align: center;
+        width: 100%;
+        height: auto;}
+
+    #footer_texto img{
+
+        display: none;}
     
-        .section_formulario {
-            flex-direction: column;
-            padding-top: 10px;
-            padding-bottom: 10%;
-            text-align: center;
-        }
+    .div_sociais{
+
+        margin-right: 0;
+        justify-content: center;}
     
-        #div_img_contato {
-            margin-left: auto;
-            margin-right: auto;
-            flex: 100%;
-        }
+    .whats{
+
+        width: 200px;
+        right: 10px;
+        bottom: 10px;}
     
-        .div_formulario_contato input {
-            width: 20%;
-            margin-bottom: 2px;
-            display: inline-flex;
+    .whats p{
+
+        font-size: 12px;}
+    
+    #voltar{
+
+        left: 10px;
+        bottom: 20px;}
+    
+    .titulo_contato span{
+
+        font-size: 20px;}
+    
+    .section_formulario{
+
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10%;
+        text-align: center;}
+    
+    #div_img_contato{
+
+        margin-left: auto;
+        margin-right: auto;
+        flex: 100%;}
+    
+    .div_formulario_contato input{
+
+        width: 20%;
+        margin-bottom: 2px;
+        display: inline-flex;}
+    
+    #button_formulario{
+
+        width: 100%;}
+    
+    .div_tabela_contato{
+
+        flex-direction: column;
+        align-items: center;}
+    
+    #div_img_tabela{
         
-        }
+        width: 30%;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        padding-top: 15px;}
     
-        #button_formulario {
-            width: 100%;
-        }
+    #div_texto_tabela{
+
+        width: 100%;}
+
+    #div_texto_tabela p{
+
+        font-size: 16px;}
+
+    #div_texto_tabela h2{
+
+        font-size: 22px;}
+
+    #div_texto_tabela a{
+
+        padding: 10px;
+        font-size: 15px;}
     
-        .div_tabela_contato {
-            flex-direction: column;
-            align-items: center;
-        }
+    .div_conteudo_servicos{
+
+        width: 90%;
+        margin: 10px 0;}
+
+    #div_titulo_linha p{
+
+        width: auto;}
     
-        #div_img_tabela {
-            width: 30%;
-            margin: 0;
-            padding-top: 15px;
-        }
+    .div_linha_servicos{
+
+        height: auto;
+        padding: 20px;
+        width: auto;}
     
-        #div_texto_tabela {
-            width: 100%;
-        }
+    .div_texto_servicos h3{
+
+        font-size: 18px;}
+
+    .div_estat{
+
+        width: 300px;
+        height: auto;}
     
-        .div_conteudo_servicos {
-            width: 90%;
-            margin: 10px 0;
-        }
-        #div_titulo_linha p{
-            width: auto;
+    .div_linha_tabela{
+
+        height: auto;
+        width: auto;}
+
+    .div_img_servicos{
+
+        margin-top: 10px;
+        width: 100%;}
+
+    .div_tabela_contato{
+
+        height: auto;
+        width: auto ;}
+
+    .trafego_img{
+
+        margin-bottom: 200px;
+        height: 60%;}
+
+    .texto_trafego{
+
+        margin-left: auto;
+        height: 500px;
+        margin-bottom: 200px;}
     
-        }
-    
-        .div_linha_servicos {
-            height: auto;
-            padding: 20px;
-            width: auto;
-        }
-    
-        .div_texto_servicos h3 {
-            font-size: 18px;
-        }
-        .div_estat{
-            width: auto;
-            height: auto;
-        }
-    
-        .div_linha_tabela{
-            height: auto;
-            width: auto;
-        }
-        .div_img_servicos {
-            margin-top: 10px;
-            width: 100%;
-        }
-        .div_tabela_contato{
-            height: auto;
-            width: auto ;
-        }
-    
-        .trafego_img {
-            height: auto;
-            flex: 100%;
-            text-align: center;
-        }
-    
-        .texto_trafego, .trafego_img {
-            flex: 100%;
-        }
-    
-        .img_lista_trafego ul {
-            padding-left: 0;
-        }
-    
-        .trafego_img img {
-            width: 80%;
-            height: auto;
-        }
-        .titulo_video{
-            width: 100%;
-        }
-        .video{
-            width: 100%;
-        }
-        .botao_mudar button{
-            width: 100%;
-        }
-        .div_perguntas{
-            width: 100%;
-        }
-        .duvidas_faq{
-            width: auto;
-            height: auto;
-        }
-        .expandir{
-            width: 80%;
-        }
-        .texto_escondido{
-            width: auto;
-        }
-        .texto_politicas{
-            width: 100%;
-        }
-        .lista_politicas{
-            width: 100%;
-        }
-        .linha_especa{
-            width: 100%;
-        }
-    
-    }
+    .titulo_video{
+
+        font-size: 23px;
+        width: 90%;}
+
+    .video{
+
+        width: 100%;}
+
+    .botao_mudar button{
+
+            width: 100%;}
+
+    .div_perguntas{
+
+            width: 100%;}
+
+    .duvidas_faq{
+
+        width: auto;
+        height: auto;}
+
+    .expandir{
+
+        width: 80%;}
+
+    .texto_escondido{
+
+        width: auto;}
+
+    .texto_politicas{
+
+        width: 100%;}
+
+    .lista_politicas{
+
+        width: 100%;}
+
+    .linha_especa{
+
+        width: 100%;}}
+
     @media (max-width: 1024px) {
         #nav_menu {
             height: 10%;
